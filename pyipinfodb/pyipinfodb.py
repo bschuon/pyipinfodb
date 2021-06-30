@@ -15,7 +15,7 @@ except ImportError:
     import urllib.request as urllib2
 import socket
 
-class IPInfo() :
+class IPInfo:
     def __init__(self, apikey):
         self.apikey = apikey
 
